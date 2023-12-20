@@ -1,0 +1,9 @@
+<div class="cart-title" >Votre panier <i class="fas fa-shopping-cart"></i>  ({{ (liste$ | async)?.length || 0 }}): </div> 
+
+<div id="MessageDelete"></div>
+<div id="container" *ngFor="let p of liste$ | async">
+  <div id="catalog">
+    {{ p.name }} ({{ p.price }}€)
+  <button (click)="delFormCart(p)"> Supprimer </button>
+  </div>
+</div>

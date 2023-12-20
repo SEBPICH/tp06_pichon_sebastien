@@ -1,0 +1,67 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Couleur de fond légère */
+  color: #333; /* Couleur de texte principale */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#catalog {
+  background-color: #fff; /* Couleur de fond pour chaque élément du catalogue */
+  border: 1px solid #ddd; /* Bordure légère */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #a29965; /* Couleur de bouton verte */
+  color: #fff; /* Couleur de texte pour le bouton */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cf4e4e; /* Couleur de survol pour le bouton */
+}
+
+#MessageDelete{
+  background-color: #cf4e4e; 
+  color: white;
+  display: flex;
+  font-size: larger;
+  font-weight: bolder;
+  justify-content: center; 
+  align-items: center;
+}
+  

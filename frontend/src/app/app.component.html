@@ -1,0 +1,23 @@
+<app-tetiere></app-tetiere>
+
+<br />
+<div id="connection">
+    <label for="login" placeholder="Renseignez votre identifiant">Login : </label>
+    <input [(ngModel)]="login" /><br /><br />
+    <label for="password" placeholder="Renseignez votre mot de passe">Password : </label>
+    <input [(ngModel)]="password" type="password" /><br />
+</div>
+<div *ngIf="!cnx && loginError">
+    <div id="erreur">Identifiants incorrects. Veuillez réessayer.</div>
+  </div>
+<br />
+<button (click)="connexion()">Connexion</button>
+<br/>
+<div *ngIf="cnx">
+    <div id="bonjour">Bonjour {{ firstname }} - {{ lastname }}</div>
+    <hr/>
+    <router-outlet></router-outlet>
+</div>
+
+
+<app-footer></app-footer>

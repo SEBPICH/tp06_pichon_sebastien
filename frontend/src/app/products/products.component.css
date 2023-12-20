@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Couleur de fond légère */
+  color: #333; /* Couleur de texte principale */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#catalog {
+  width: 45%;
+  background-color: #fff;
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#category{
+  font-size: 12px;
+}
+
+button {
+  background-color: #a29965; /* Couleur de bouton verte */
+  color: #fff; /* Couleur de texte pour le bouton */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4ecf54; /* Couleur de survol pour le bouton */
+}
+
+div{
+  font-family: 'San Francisco', 'Arial', sans-serif;
+  align-items: center;
+}
+
+#MessageAdd{
+  background-color: #4CAF50; 
+  color: white;
+  display: flex;
+  font-size: larger;
+  font-weight: bolder;
+  justify-content: center; 
+  align-items: center;
+}
+  
